@@ -1,0 +1,42 @@
+{
+    "project_info": {
+        "project_number": "557535626534",
+        "firebase_url": "https://proyectr-43d4b.firebaseio.com",
+        "project_id": "proyectr-43d4b",
+        "storage_bucket": "proyectr-43d4b.appspot.com"
+    },
+    "client": [
+        {
+            "client_info": {
+                "mobilesdk_app_id": "1:557535626534:android:02d4e5a46821af8f",
+                "android_client_info": {
+                    "package_name": "com.magmarooms"
+                }
+            },
+            "oauth_client": [
+                {
+                    "client_id": "557535626534-5k4ugmbvjsq6gp2hu9t3e7icrtjoknva.apps.googleusercontent.com",
+                    "client_type": 3
+                }
+            ],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyCilFYUWIXSKwH2JYepiHTla5mrYDR4fJE"
+                }
+            ],
+            "services": {
+                "analytics_service": {
+                    "status": 1
+                },
+                "appinvite_service": {
+                    "status": 1,
+                    "other_platform_oauth_client": []
+                },
+                "ads_service": {
+                    "status": 2
+                }
+            }
+        }
+    ],
+    "configuration_version": "1"
+}
