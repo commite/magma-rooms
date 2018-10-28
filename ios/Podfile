@@ -8,6 +8,8 @@ target 'MagmaRooms' do
   # Pods for MagmaRooms
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
+  pod 'GoogleSignIn'
+  pod 'Firebase/Firestore'
 
   target 'MagmaRoomsTests' do
     inherit! :search_paths

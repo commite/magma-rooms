@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import { ThemeProvider } from 'styled-components'
 import { Provider } from 'react-redux'
-import { Navigator } from './navigator'
 import { theme } from './theme'
 import { configureStore } from './store'
+import { Navigator } from './containers/Navigator'
 
 global.XMLHttpRequest = global.originalXMLHttpRequest
     ? global.originalXMLHttpRequest

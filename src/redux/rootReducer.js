@@ -1,8 +1,10 @@
 import { combineReducers } from 'redux'
 
-import { interfaceReducer } from './interface'
+import { usersReducer } from './users'
+import { rooomsReducer } from './rooms'
 
 export const rootReducer = combineReducers({
-    interface: interfaceReducer,
+    users: usersReducer,
+    rooms: rooomsReducer,
 })
 export default rootReducer
