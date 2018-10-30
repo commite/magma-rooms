@@ -16,8 +16,10 @@ export class Rooms extends React.PureComponent {
         this.props.getRooms()
     }
 
+    onPressRoom = roomId => this.props.navigation.navigate('Room', { roomId })
+
     render() {
         const { rooms } = this.props
-        return <RoomsList rooms={rooms} />
+        return <RoomsList rooms={rooms} onPressRoom={this.onPressRoom} />
     }
 }

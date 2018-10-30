@@ -1,12 +1,13 @@
-// @flow
 import React from 'react'
-import { FlatList, View, Text } from 'react-native'
+import { FlatList } from 'react-native'
+import { RoomPreview } from '../RoomPreview'
 
 export class RoomsList extends React.PureComponent {
     renderItem = ({ item }) => (
-        <View>
-            <Text>{item.name}</Text>
-        </View>
+        <RoomPreview
+            room={item}
+            onPress={() => this.props.onPressRoom(item.id)}
+        />
     )
 
     render() {
